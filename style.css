@@ -1,0 +1,109 @@
+body{ 
+    background-color: #0d2052;
+    display: flex;
+    justify-content: center;
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  #container{
+    height: 420px;
+    width: 250px;
+    background-color: #263766;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+  #img{
+    color: cyan;
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  #eye-hover {
+    cursor: pointer;
+    position: absolute;
+    top: 17.7%;
+    left: 43.1%;
+    background-color: hsla(178, 100%, 50%, 0.336);
+    /* padding: 117px 111px 100px 110px; */
+    opacity: 0;
+    padding: 5.2% 5.3%;
+    border-radius: 10px;
+    
+}
+  #eye-hover:hover{
+      opacity: 1;
+  }
+  #p1{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  #p1:hover{
+    color: cyan;
+  }
+  #p2{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -10px;
+    font-size: 13px;
+    color: gray;
+  }
+  .child{
+    display: flex;
+  }
+  .img2{
+    margin-left: 25px;
+  }
+  .eth_price{
+      color: cyan;
+      font-size: 16px;
+      margin-left: 10px;
+  }
+  #p3{
+    color: cyan;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .icon_clock{
+      margin-left: 30px;
+  }
+  .time{
+    color: gray;
+  }
+  .hr{
+    width: 200px;
+    color: gray;
+    margin-top: 15px;
+  }
+  .child2{
+      display: flex;
+  }
+  .avatar{
+      width: 2em;
+      border: 2px solid white;
+      border-radius: 50%;
+      margin-left: 15px;
+      margin-top: 5px;
+  }
+  .creator{
+      color: gray;
+      margin-left: 15px;
+      margin-top: 15px;
+  }
+  .name{
+      cursor: pointer;
+      margin-left: 10px;
+      margin-top: 15px;
+      color: white;
+  }
+  .name:hover{
+    color: cyan;
+  }
